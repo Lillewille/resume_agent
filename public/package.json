@@ -1,0 +1,8 @@
+{
+  "name": "mattias-ai-cv-bot",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
