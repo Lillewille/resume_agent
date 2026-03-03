@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ask Mattias' AI</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="header">
+        <h1>Ask my AI about my background</h1>
+        <p class="sub">
+          Svar baserat på mitt CV och mina case-notes. Om något saknas: fråga mig direkt.
+        </p>
+      </header>
+
+      <section class="suggest">
+        <button data-q="Vilka resultat är du mest stolt över?">Resultat jag är stolt över</button>
+        <button data-q="Berätta om ett svårt stakeholder-läge du löst.">Stakeholder-case</button>
+        <button data-q="Vilken typ av roll söker du nu?">Vad jag söker</button>
+        <button data-q="Ge en kort sammanfattning av din AI-erfarenhet.">AI-erfarenhet</button>
+      </section>
+
+      <section id="chat" class="chat"></section>
+
+      <form id="form" class="composer">
+        <input id="input" placeholder="Ställ en fråga…" autocomplete="off" />
+        <button type="submit">Skicka</button>
+      </form>
+
+      <footer class="footer">
+        <a href="/Mattias-CV.pdf" target="_blank" rel="noreferrer">Ladda ner CV</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/DITT-LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+      </footer>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
